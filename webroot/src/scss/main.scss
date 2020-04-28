@@ -1,0 +1,12 @@
+/* Bootstrap 3.3.7 */
+@import "../../../vendor/maiconpinto/cakephp-adminlte-theme/webroot/bower_components/bootstrap/dist/css/bootstrap.min";
+/* Font Awesome 4.7.0 [AdminLTE] - nie działa przez gulp, trzeba importować w layoucie */
+/* @import "../../../vendor/maiconpinto/cakephp-adminlte-theme/webroot/bower_components/font-awesome/css/font-awesome.min"; */
+/* Ioicons [AdminLTE] */
+@import "../../../vendor/maiconpinto/cakephp-adminlte-theme/webroot/bower_components/Ionicons/css/ionicons.min";
+/* AdminLTE */
+@import "../../../vendor/maiconpinto/cakephp-adminlte-theme/webroot/css/AdminLTE.min";
+/* ICheck [AdminLTE] */
+@import "../../../vendor/maiconpinto/cakephp-adminlte-theme/webroot/plugins/iCheck/all.css";
+/* Style własne */
+@import "xone";

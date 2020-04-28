@@ -1,0 +1,13 @@
+
+    public function delete($id = null)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+        ${{ singularName }} = $this->{{ currentModelName }}->get($id);
+        if ($this->{{ currentModelName }}->delete(${{ singularName }})) {
+            $this->Flash->success(__('Usuwanie obiektu powiodło się.'));
+        } else {
+            $this->Flash->error(__('Wystąpił błąd podczas usuwania obiektu. Spróbuj ponownie.'));
+        }
+
+        return $this->redirect(['action' => 'index']);
+    }
