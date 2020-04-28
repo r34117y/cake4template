@@ -2,8 +2,8 @@
 
 return [
     'Google' => [
-        'clientId' => '289201818328-mijedkjv5huoe2qccr47loth9e2ko9d0.apps.googleusercontent.com',
-        'clientSecret' => 'hSsxal4SNdVlox34xvQJncLG',
+        'clientId' => env('GOOGLE_CLIENT_ID', null),
+        'clientSecret' => env('GOOGLE_SECRET', null),
         // Google wymaga ustawienia dokładnego adresu w konsoli, nie tylko domeny
         // ale nie robi problemów z localhostem
         // można też wpisać port
@@ -12,8 +12,8 @@ return [
         'scope' => ['email', 'profile'],
     ],
     'Facebook' => [
-        'appId' => '817196625114836',
-        'appSecret' => 'ca15ca5ae0ed8e4826f6574f146ccf21',
+        'appId' => env("FB_APP_ID", null),
+        'appSecret' => env("FB_SECRET", null),
         'appApiVersion' => 'v6.0',
         'permissions' => ['email'],
         'callbackUrl' => 'http://localhost:8765/login'
