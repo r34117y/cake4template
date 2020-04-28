@@ -1,0 +1,286 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-04-28 10:38+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/Admin/AdministratorsController.php:25
+#: Controller/AuthController.php:35
+msgid "Nieprawidłowa nazwa użytkownika lub hasło"
+msgstr ""
+
+#: Admin/Administrators/login.php:6
+msgid "Panel administracyjny"
+msgstr ""
+
+#: Admin/Administrators/login.php:13
+#: Auth/login.php:12
+msgid "Hasło"
+msgstr ""
+
+#: Admin/Administrators/login.php:17
+msgid "Zapomniałeś hasła?"
+msgstr ""
+
+#: Admin/Administrators/login.php:20
+#: Auth/login.php:15
+msgid "Zaloguj się"
+msgstr ""
+
+#: layout/error.php:40
+msgid "Powrót"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/form.php:3
+msgid "Szukaj"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:2
+msgid "GŁÓWNA NAWIGACJA"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:5
+msgid "Dashboard"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:11
+msgid "Dashboard v1"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:12
+msgid "Dashboard v2"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:18
+msgid "Layouty"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:24
+msgid "Nawigacja u góry"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:25
+msgid "Pudełka"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:26
+msgid "Fixed"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:27
+msgid "Zwinięte menu boczne"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:32
+msgid "Widgety"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:34
+msgid "nowy"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:41
+msgid "Wykresy"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:56
+msgid "Elementy UI"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:62
+msgid "Ogólne"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:63
+msgid "Ikony"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:64
+msgid "Przyciski"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:65
+msgid "Suwaki"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:66
+msgid "Linia czasu"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:67
+msgid "Modale"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:72
+msgid "Formularze"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:78
+msgid "Elementy podstawowe"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:79
+msgid "Elementy zaawansowane"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:80
+msgid "Edytory"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:85
+msgid "Tabele"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:91
+msgid "Zwykłe tabele"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:92
+msgid "Data tables"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:97
+msgid "Kalendarz"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:106
+msgid "Mailbox"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:116
+msgid "Przykłady"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:122
+msgid "Faktura"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:123
+msgid "Profil"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:124
+msgid "Login"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:125
+msgid "Rejestracja"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:126
+msgid "Lockscreen"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:127
+msgid "Błąd 404"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:128
+msgid "Błąd 500"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:129
+msgid "Pusta strona"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:130
+msgid "Pace page"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:135
+msgid "Wielopoziomowe"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:141
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:143
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:163
+msgid "Poziom pierwszy"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:149
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:151
+msgid "Poziom drugi"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:157
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:158
+msgid "Poziom trzeci"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:166
+msgid "Dokumentacja"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:167
+msgid "ETYKIETY"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:168
+msgid "Ważne"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:169
+msgid "Ostrzeżenie"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:170
+msgid "Informacja"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:171
+msgid "Debug"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside/user-panel.php:11
+#: plugin/AdminLTE/element/aside/user-panel.php:11
+msgid "Online"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/flash/default.php:4
+#: plugin/AdminLTE/Admin/element/flash/error.php:4
+#: plugin/AdminLTE/Admin/element/flash/success.php:4
+#: plugin/AdminLTE/element/flash/default.php:4
+#: plugin/AdminLTE/element/flash/error.php:4
+#: plugin/AdminLTE/element/flash/success.php:4
+msgid "Uwaga"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:295
+#: plugin/AdminLTE/element/nav-top.php:295
+msgid "Wyloguj"
+msgstr ""
+
+#: plugin/AdminLTE/layout/login.php:42
+msgid "Panel logowania"
+msgstr ""
+
+#: plugin/AdminLTE/layout/login.php:48
+msgid "LUB"
+msgstr ""
+
+#: plugin/AdminLTE/layout/login.php:51
+msgid "Zaloguj przez Facebook"
+msgstr ""
+
+#: plugin/AdminLTE/layout/login.php:55
+msgid "Zaloguj przez Google"
+msgstr ""
+
+#: plugin/AdminLTE/layout/login.php:62
+msgid "Zapomniałem hasła"
+msgstr ""
+
+#: plugin/AdminLTE/layout/login.php:65
+msgid "Zarejestruj się"
+msgstr ""
+

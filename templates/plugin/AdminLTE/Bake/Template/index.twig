@@ -76,9 +76,9 @@
 {% endfor %}
 {% set pk = '$' ~ singularVar ~ '->' ~ primaryKey[0] %}
                   <td class="actions text-right">
-                      <?= $this->Html->link(__('View'), ['action' => 'view', {{ pk|raw }}], ['class'=>'btn btn-info btn-xs']) ?>
-                      <?= $this->Html->link(__('Edit'), ['action' => 'edit', {{ pk|raw }}], ['class'=>'btn btn-warning btn-xs']) ?>
-                      <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', {{ pk|raw }}], ['confirm' => __('Are you sure you want to delete # {0}?', {{ pk|raw }}), 'class'=>'btn btn-danger btn-xs']) ?>
+                      <?= $this->Html->link(__('Podgląd'), ['action' => 'view', {{ pk|raw }}], ['class'=>'btn btn-info btn-xs']) ?>
+                      <?= $this->Html->link(__('Edycja'), ['action' => 'edit', {{ pk|raw }}], ['class'=>'btn btn-warning btn-xs']) ?>
+                      <?= $this->Form->postLink(__('Usuń'), ['action' => 'delete', {{ pk|raw }}], ['confirm' => __('Are you sure you want to delete # {0}?', {{ pk|raw }}), 'class'=>'btn btn-danger btn-xs']) ?>
                   </td>
                 </tr>
               <?php endforeach; ?>

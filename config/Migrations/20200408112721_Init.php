@@ -14,6 +14,7 @@ class Init extends AbstractMigration
             ->addColumn('password', 'string', ['null' => true])
             ->addColumn('firstname', 'string', ['null' => true])
             ->addColumn('lastname', 'string', ['null' => true])
+            ->addColumn('default_locale', 'string', ['default' => 'pl'])
             ->addTimestamps()
             ->create();
 
