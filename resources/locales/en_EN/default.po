@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-04-28 10:38+0000\n"
-"PO-Revision-Date: 2020-04-28 12:45+0200\n"
+"POT-Creation-Date: 2020-04-28 12:44+0000\n"
+"PO-Revision-Date: 2020-04-28 14:53+0200\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,209 +46,319 @@ msgstr "Sign in"
 msgid "Powrót"
 msgstr "Back"
 
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:11
+msgid "Ostatnia aktywność"
+msgstr "Current activity"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:59
+msgid "Postęp wykonywania zadań"
+msgstr "Tasks progress"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:64
+msgid "Projekt szablonów"
+msgstr "Templates design"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:76
+msgid "Aktualizacja raportu"
+msgstr "Report update"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:88
+msgid "Integracja z X-One"
+msgstr "X-One integration"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:100
+msgid "Backend"
+msgstr "Backend"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:111
+msgid "Statystyki"
+msgstr "Statistics"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:114
+msgid "Ustawienia ogólne"
+msgstr "General settings"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:118
+msgid "Panel raportowania"
+msgstr "Report dashboard"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:129
+msgid "Przekierowanie poczty"
+msgstr "Mail forwarding"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:149
+msgid "Ustawienia chata"
+msgstr "Chat settings"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:153
+msgid "Pokaż, że jestem online"
+msgstr "Show me as online"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:160
+msgid "Wyłącz powiadomienia"
+msgstr "Turn off notifications"
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:167
+msgid "Usuń historię czata"
+msgstr "Delete chat history"
+
 #: plugin/AdminLTE/Admin/element/aside/form.php:3
+#: plugin/AdminLTE/Admin/element/nav-top.php:43
+#, fuzzy
 msgid "Szukaj"
 msgstr "Search"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:2
+#, fuzzy
 msgid "GŁÓWNA NAWIGACJA"
 msgstr "MAIN NAVIGATION"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:5
+#, fuzzy
 msgid "Dashboard"
 msgstr "Dashboard"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:11
+#, fuzzy
 msgid "Dashboard v1"
 msgstr "Dashboard v1"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:12
+#, fuzzy
 msgid "Dashboard v2"
 msgstr "Dashboard v2"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:18
+#, fuzzy
 msgid "Layouty"
 msgstr "Layouts"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:24
+#, fuzzy
 msgid "Nawigacja u góry"
 msgstr "Top Navigation"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:25
+#, fuzzy
 msgid "Pudełka"
 msgstr "Boxes"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:26
+#, fuzzy
 msgid "Fixed"
 msgstr "Fixed"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:27
+#, fuzzy
 msgid "Zwinięte menu boczne"
 msgstr "Sidebar collapsed"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:32
+#, fuzzy
 msgid "Widgety"
 msgstr "Widgets"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:34
+#, fuzzy
 msgid "nowy"
 msgstr "new"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:41
+#, fuzzy
 msgid "Wykresy"
 msgstr "Charts"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:56
+#, fuzzy
 msgid "Elementy UI"
 msgstr "UI Elements"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:62
+#, fuzzy
 msgid "Ogólne"
 msgstr "General"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:63
+#, fuzzy
 msgid "Ikony"
 msgstr "Icons"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:64
+#, fuzzy
 msgid "Przyciski"
 msgstr "Buttons"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:65
+#, fuzzy
 msgid "Suwaki"
 msgstr "Sliders"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:66
+#, fuzzy
 msgid "Linia czasu"
 msgstr "Timeline"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:67
+#, fuzzy
 msgid "Modale"
 msgstr "Modals"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:72
+#, fuzzy
 msgid "Formularze"
 msgstr "Forms"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:78
+#, fuzzy
 msgid "Elementy podstawowe"
 msgstr "Basic Elements"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:79
+#, fuzzy
 msgid "Elementy zaawansowane"
 msgstr "Advanced Elements"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:80
+#, fuzzy
 msgid "Edytory"
 msgstr "Editors"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:85
+#, fuzzy
 msgid "Tabele"
 msgstr "Tables"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:91
+#, fuzzy
 msgid "Zwykłe tabele"
 msgstr "Basic tables"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:92
+#, fuzzy
 msgid "Data tables"
 msgstr "Data tables"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:97
+#, fuzzy
 msgid "Kalendarz"
 msgstr "Calendar"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:106
+#, fuzzy
 msgid "Mailbox"
 msgstr "Mailbox"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:116
+#, fuzzy
 msgid "Przykłady"
 msgstr "Examples"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:122
+#, fuzzy
 msgid "Faktura"
 msgstr "Invoice"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:123
+#: plugin/AdminLTE/Admin/element/nav-top.php:319
+#, fuzzy
 msgid "Profil"
 msgstr "Profile"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:124
+#, fuzzy
 msgid "Login"
 msgstr "Login"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:125
+#, fuzzy
 msgid "Rejestracja"
 msgstr "Registration"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:126
+#, fuzzy
 msgid "Lockscreen"
 msgstr "Lockscreen"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:127
+#, fuzzy
 msgid "Błąd 404"
 msgstr "Error 404"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:128
+#, fuzzy
 msgid "Błąd 500"
 msgstr "Error 500"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:129
+#, fuzzy
 msgid "Pusta strona"
 msgstr "Blank page"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:130
+#, fuzzy
 msgid "Pace page"
 msgstr "Pace page"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:135
+#, fuzzy
 msgid "Wielopoziomowe"
 msgstr "Multilevel"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:141
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:143
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:163
+#, fuzzy
 msgid "Poziom pierwszy"
 msgstr "Level one"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:149
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:151
+#, fuzzy
 msgid "Poziom drugi"
 msgstr "Level two"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:157
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:158
+#, fuzzy
 msgid "Poziom trzeci"
 msgstr "Level three"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:166
+#, fuzzy
 msgid "Dokumentacja"
 msgstr "Documentation"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:167
+#, fuzzy
 msgid "ETYKIETY"
 msgstr "LABELS"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:168
+#, fuzzy
 msgid "Ważne"
 msgstr "Important"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:169
+#, fuzzy
 msgid "Ostrzeżenie"
 msgstr "Warning"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:170
+#, fuzzy
 msgid "Informacja"
 msgstr "Information"
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:171
+#, fuzzy
 msgid "Debug"
 msgstr "Debug"
 
+#: plugin/AdminLTE/Admin/element/aside/user-panel.php:7
+msgid "Zdjęcie użytkownika"
+msgstr "User photo"
+
 #: plugin/AdminLTE/Admin/element/aside/user-panel.php:11
 #: plugin/AdminLTE/element/aside/user-panel.php:11
-#, fuzzy
 msgid "Online"
 msgstr "Online"
 
@@ -258,13 +368,155 @@ msgstr "Online"
 #: plugin/AdminLTE/element/flash/default.php:4
 #: plugin/AdminLTE/element/flash/error.php:4
 #: plugin/AdminLTE/element/flash/success.php:4
-#, fuzzy
 msgid "Uwaga"
 msgstr "Alert"
 
-#: plugin/AdminLTE/Admin/element/nav-top.php:295
+#: plugin/AdminLTE/Admin/element/footer.php:6
+msgid "Wersja"
+msgstr "Version"
+
+#: plugin/AdminLTE/Admin/element/footer.php:9
+msgid "Wszystkie prawa zastrzeżone"
+msgstr "All rights reserved"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:24
+msgid "Link"
+msgstr "Link"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:24
+msgid "aktywny"
+msgstr "active"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:28
+msgid "Menu rozwijane"
+msgstr "Dropdown"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:31
+msgid "Akcja"
+msgstr "Action"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:32
+msgid "Kolejna akcja"
+msgstr "Another action"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:33
+msgid "Tutaj coś innego"
+msgstr "Something else here"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:35
+msgid "Wydzielony link"
+msgstr "Separate link"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:37
+msgid "Jeszcze jeden wydzielony link"
+msgstr "Another separate link"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:51
+msgid "Nawigacja"
+msgstr "Navigation"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:69
+msgid "Masz {0,integer} nowych wiadomości"
+msgstr "You have {0,integer} new messages"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:79
+msgid "Obsługa klienta"
+msgstr "Customer service"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:82
+msgid "{0,number,integer} minut"
+msgstr "{0,number,integer} mins"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:95
+msgid "Frontend"
+msgstr "Frontend"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:98
+msgid "{0,number,integer} godziny"
+msgstr "{0,number,integer} hours"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:110
+msgid "Programiści"
+msgstr "Developers"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:111
+msgid "Dzisiaj"
+msgstr "Today"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:122
+#: plugin/AdminLTE/Admin/element/nav-top.php:308
+msgid "Sprzedaż"
+msgstr "Sales"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:123
+msgid "Wczoraj"
+msgstr "Yesterday"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:134
+msgid "Recenzenci"
+msgstr "Reviewers"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:137
+msgid "{0, number, integer} dni"
+msgstr "{0,number,integer} days"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:145
+msgid "Zobacz wszystkie wiadomości"
+msgstr "See all messages"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:155
+msgid "Masz {0,number, integer} powiadomień"
+msgstr "You have {0,number,integer} notifications"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:162
+msgid "{0} nowych użytkowników dołączyło dziś"
+msgstr "{0} new members joined today"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:175
+msgid "Dołączyło {0} nowych użytkoników"
+msgstr "{0} new members joined"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:181
+msgid "{0} nowych zamówień"
+msgstr "{0} new orders"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:187
+msgid "Zmieniłeś swoją nazwę użytkownika"
+msgstr "You changed your username"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:192
+msgid "Pokaż wszystko"
+msgstr "Show all"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:202
+msgid "Masz {0} zadań"
+msgstr "You have {0} tasks"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:217
+#: plugin/AdminLTE/Admin/element/nav-top.php:235
+#: plugin/AdminLTE/Admin/element/nav-top.php:253
+#: plugin/AdminLTE/Admin/element/nav-top.php:271
+msgid "Gotowe w {0,number,percent}"
+msgstr "Finished in {0,number,percent}"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:281
+msgid "Pokaż wszystkie zadania"
+msgstr "Show all tasks"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:298
+msgid "Członek od {0,date}"
+msgstr "Memder since {0,date}"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:305
+msgid "Obserwujący"
+msgstr "Observers"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:311
+msgid "Znajomi"
+msgstr "Friends"
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:323
 #: plugin/AdminLTE/element/nav-top.php:295
-#, fuzzy
 msgid "Wyloguj"
 msgstr "Log out"
 

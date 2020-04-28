@@ -1,5 +1,5 @@
 <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
+    <!-- Styl panelu bocznego znajduje się w pliku sidebar.less -->
     <section class="sidebar">
         <!-- Sidebar user panel -->
         <?php echo $this->element('aside/user-panel'); ?>

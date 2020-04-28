@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-04-28 10:38+0000\n"
+"POT-Creation-Date: 2020-04-28 12:44+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -41,7 +41,64 @@ msgstr ""
 msgid "Powrót"
 msgstr ""
 
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:11
+msgid "Ostatnia aktywność"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:59
+msgid "Postęp wykonywania zadań"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:64
+msgid "Projekt szablonów"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:76
+msgid "Aktualizacja raportu"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:88
+msgid "Integracja z X-One"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:100
+msgid "Backend"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:111
+msgid "Statystyki"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:114
+msgid "Ustawienia ogólne"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:118
+msgid "Panel raportowania"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:129
+msgid "Przekierowanie poczty"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:149
+msgid "Ustawienia chata"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:153
+msgid "Pokaż, że jestem online"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:160
+msgid "Wyłącz powiadomienia"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/aside-control-sidebar.php:167
+msgid "Usuń historię czata"
+msgstr ""
+
 #: plugin/AdminLTE/Admin/element/aside/form.php:3
+#: plugin/AdminLTE/Admin/element/nav-top.php:43
 msgid "Szukaj"
 msgstr ""
 
@@ -166,6 +223,7 @@ msgid "Faktura"
 msgstr ""
 
 #: plugin/AdminLTE/Admin/element/aside/sidebar-menu.php:123
+#: plugin/AdminLTE/Admin/element/nav-top.php:319
 msgid "Profil"
 msgstr ""
 
@@ -241,6 +299,10 @@ msgstr ""
 msgid "Debug"
 msgstr ""
 
+#: plugin/AdminLTE/Admin/element/aside/user-panel.php:7
+msgid "Zdjęcie użytkownika"
+msgstr ""
+
 #: plugin/AdminLTE/Admin/element/aside/user-panel.php:11
 #: plugin/AdminLTE/element/aside/user-panel.php:11
 msgid "Online"
@@ -255,7 +317,151 @@ msgstr ""
 msgid "Uwaga"
 msgstr ""
 
-#: plugin/AdminLTE/Admin/element/nav-top.php:295
+#: plugin/AdminLTE/Admin/element/footer.php:6
+msgid "Wersja"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/footer.php:9
+msgid "Wszystkie prawa zastrzeżone"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:24
+msgid "Link"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:24
+msgid "aktywny"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:28
+msgid "Menu rozwijane"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:31
+msgid "Akcja"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:32
+msgid "Kolejna akcja"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:33
+msgid "Tutaj coś innego"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:35
+msgid "Wydzielony link"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:37
+msgid "Jeszcze jeden wydzielony link"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:51
+msgid "Nawigacja"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:69
+msgid "Masz {0,integer} nowych wiadomości"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:79
+msgid "Obsługa klienta"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:82
+msgid "{0,number,integer} minut"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:95
+msgid "Frontend"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:98
+msgid "{0,number,integer} godziny"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:110
+msgid "Programiści"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:111
+msgid "Dzisiaj"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:122
+#: plugin/AdminLTE/Admin/element/nav-top.php:308
+msgid "Sprzedaż"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:123
+msgid "Wczoraj"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:134
+msgid "Recenzenci"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:137
+msgid "{0, number, integer} dni"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:145
+msgid "Zobacz wszystkie wiadomości"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:155
+msgid "Masz {0,number, integer} powiadomień"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:162
+msgid "{0} nowych użytkowników dołączyło dziś"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:175
+msgid "Dołączyło {0} nowych użytkoników"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:181
+msgid "{0} nowych zamówień"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:187
+msgid "Zmieniłeś swoją nazwę użytkownika"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:192
+msgid "Pokaż wszystko"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:202
+msgid "Masz {0} zadań"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:217
+#: plugin/AdminLTE/Admin/element/nav-top.php:235
+#: plugin/AdminLTE/Admin/element/nav-top.php:253
+#: plugin/AdminLTE/Admin/element/nav-top.php:271
+msgid "Gotowe w {0,number,percent}"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:281
+msgid "Pokaż wszystkie zadania"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:298
+msgid "Członek od {0,date}"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:305
+msgid "Obserwujący"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:311
+msgid "Znajomi"
+msgstr ""
+
+#: plugin/AdminLTE/Admin/element/nav-top.php:323
 #: plugin/AdminLTE/element/nav-top.php:295
 msgid "Wyloguj"
 msgstr ""
