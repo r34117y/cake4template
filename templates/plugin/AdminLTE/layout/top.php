@@ -7,9 +7,9 @@
     <title><?= Configure::read('Theme.title'); ?> | <?= $this->fetch('title'); ?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <?= $this->Html->css('main') ?>
     <!-- Font Awesome - nie działa zbundlowany gulpem -->
     <?php echo $this->Html->css('AdminLTE./bower_components/font-awesome/css/font-awesome.min'); ?>
-    <?= $this->Html->css('main') ?>
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <?= $this->Html->css('AdminLTE.skins/skin-' . Configure::read('Theme.skin') . '.min'); ?>

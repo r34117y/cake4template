@@ -8,16 +8,12 @@
   <title><?php echo Configure::read('Theme.title'); ?> | <?php echo $this->fetch('title'); ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.7 -->
-  <?php echo $this->Html->css('AdminLTE./bower_components/bootstrap/dist/css/bootstrap.min'); ?>
-  <!-- Font Awesome -->
-  <?php echo $this->Html->css('AdminLTE./bower_components/font-awesome/css/font-awesome.min'); ?>
-  <!-- Ionicons -->
-  <?php echo $this->Html->css('AdminLTE./bower_components/Ionicons/css/ionicons.min'); ?>
-  <!-- Theme style -->
-  <?php echo $this->Html->css('AdminLTE.AdminLTE.min'); ?>
-  <!-- iCheck -->
-  <?php echo $this->Html->css('AdminLTE./plugins/iCheck/square/blue'); ?>
+    <?= $this->Html->css('main') ?>
+    <!-- Font Awesome - nie działa zbundlowany gulpem -->
+    <?php echo $this->Html->css('AdminLTE./bower_components/font-awesome/css/font-awesome.min'); ?>
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <?= $this->Html->css('AdminLTE.skins/skin-' . Configure::read('Theme.skin') . '.min'); ?>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,19 +35,13 @@
   </div>
 
   <div class="register-box-body">
-    <p class="login-box-msg">Register a new membership</p>
+    <p class="login-box-msg"><?= __('Zarejestruj się') ?></p>
 
     <?php echo $this->fetch('content'); ?>
 
-    <div class="social-auth-links text-center">
-      <p>- OR -</p>
-      <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign up using
-        Facebook</a>
-      <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign up using
-        Google+</a>
-    </div>
-
-    <a href="<?php echo $this->Url->build('pages/examples/login'); ?>" class="text-center">I already have a membership</a>
+    <a href="<?php echo $this->Url->build(['controller' => 'Auth', 'action' => 'login']); ?>" class="text-center">
+        <?= __('Mam już konto') ?>
+    </a>
   </div>
   <!-- /.form-box -->
 </div>
