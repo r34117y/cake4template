@@ -13,6 +13,7 @@ use Cake\ORM\Entity;
  * @property string $email
  * @property string|null $firstname
  * @property string|null $lastname
+ * @property string $default_locale
  * @property \Cake\I18n\FrozenTime $created_at
  * @property \Cake\I18n\FrozenTime|null $updated_at
  *
