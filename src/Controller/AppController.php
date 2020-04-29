@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\Locale\LocaleSetter;
 use App\Model\Entity\User;
 use Authentication\Authenticator\Result;
 use Authentication\Controller\Component\AuthenticationComponent;
@@ -30,11 +31,8 @@ class AppController extends Controller
          */
         $this->loadComponent('FormProtection');
 
-        if ($this->Authentication->getResult()->getStatus() === Result::SUCCESS) {
-            /** @var User $authUser */
-            $authUser = $this->Authentication->getResult()->getData();
-            I18n::setLocale($authUser->default_locale);
-        }
+        /** @noinspection PhpParamsInspection */
+        LocaleSetter::set($this->Authentication->getResult()->getData(), $this->request);
     }
 
     public function beforeRender(EventInterface  $event)
