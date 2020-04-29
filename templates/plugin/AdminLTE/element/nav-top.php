@@ -22,7 +22,7 @@ use Cake\Core\Configure;
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#"><?= __('Link') ?> <span class="sr-only">(<?= __('aktywny') ?>)</span></a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#"><?= __('Link') ?></a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <?= __('Menu rozwijane') ?> <span class="caret"></span>
@@ -66,7 +66,7 @@ use Cake\Core\Configure;
                         <span class="label label-success">4</span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li class="header"><?= __('Masz {0,integer} nowych wiadomości', [4]) ?></li>
+                        <li class="header"><?= __('Masz {0} nowych wiadomości', [4]) ?></li>
                         <li>
                             <!-- inner menu: contains the actual data -->
                             <ul class="menu">

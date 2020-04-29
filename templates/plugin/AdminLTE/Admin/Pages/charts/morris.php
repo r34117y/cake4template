@@ -1,12 +1,12 @@
 <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Morris Charts
-        <small>Preview sample</small>
+        Morris Charts (morris.js)
+        <small><?= __('Przykłady') ?></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Charts</a></li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> <?= __('Strona główna') ?></a></li>
+        <li><a href="#">Wykresy</a></li>
         <li class="active">Morris</li>
       </ol>
     </section>
@@ -16,15 +16,14 @@
       <div class="callout callout-warning">
         <h4>Warning!</h4>
 
-        <p><b>Morris.js</b> charts are no longer maintained by its author. We would recommend using any of the other
-          charts that come with the template.</p>
+        <p><b>Morris.js</b> nie jest już wspierany przez autora, w związku z czym poleca się użycie innej biblioteki.</p>
       </div>
       <div class="row">
         <div class="col-md-6">
           <!-- AREA CHART -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Area Chart</h3>
+              <h3 class="box-title">Wykres obszarowy</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -42,7 +41,7 @@
           <!-- DONUT CHART -->
           <div class="box box-danger">
             <div class="box-header with-border">
-              <h3 class="box-title">Donut Chart</h3>
+              <h3 class="box-title"><?= __('Wykres pierścieniowy') ?></h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -63,7 +62,7 @@
           <!-- LINE CHART -->
           <div class="box box-info">
             <div class="box-header with-border">
-              <h3 class="box-title">Line Chart</h3>
+              <h3 class="box-title"><?= __('Wykres liniowy') ?></h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -81,7 +80,7 @@
           <!-- BAR CHART -->
           <div class="box box-success">
             <div class="box-header with-border">
-              <h3 class="box-title">Bar Chart</h3>
+              <h3 class="box-title"><?= __('Wykres słupkowy') ?></h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -169,9 +168,9 @@
       resize: true,
       colors: ["#3c8dbc", "#f56954", "#00a65a"],
       data: [
-        {label: "Download Sales", value: 12},
-        {label: "In-Store Sales", value: 30},
-        {label: "Mail-Order Sales", value: 20}
+        {label: "<?= __('Sprzedaż - download') ?>", value: 12},
+        {label: "<?= __('Sprzedaż - sklepy') ?>", value: 30},
+        {label: "<?= __('Sprzedaż - mail') ?>", value: 20}
       ],
       hideHover: 'auto'
     });
