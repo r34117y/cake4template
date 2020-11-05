@@ -52,5 +52,12 @@ class Init extends AbstractMigration
             ->addIndex(['user_id'])
             ->addForeignKey('user_id', 'users')
             ->create();
+
+        $table = $this->table('configuration');
+        $table->addColumn('key', 'string');
+        $table->addColumn('label', 'string');
+        $table->addColumn('value', 'string');
+        $table->addColumn('group', 'string', ['null' => true]);
+        $table->create();
     }
 }
