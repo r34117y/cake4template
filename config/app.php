@@ -57,7 +57,7 @@ return [
             'templates' => [ROOT . DS . 'templates' . DS],
             'locales' => [RESOURCES . 'locales' . DS],
         ],
-        'enableSocialLogin' => true,
+        'enableSocialLogin' => false,
     ],
 
     /*
